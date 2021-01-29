@@ -11,7 +11,7 @@ import lombok.Setter;
 
 /*@Getter lombok provide these functionality to create getter setter directly without generate them manually.
 @Setter*/
-@Data //Combination of Getter, Setter, ToString, Hashcode
+ @Data //Combination of Getter, Setter, ToString, Hashcode
 @Entity
 public class VechicleDTO {
 
