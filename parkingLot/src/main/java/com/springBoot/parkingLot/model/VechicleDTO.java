@@ -13,7 +13,7 @@ import lombok.Setter;
 @Setter*/
 @Data //Combination of Getter, Setter, ToString, Hashcode
 @Entity
-public class ParkingInfo {
+public class VechicleDTO {
 
 	@Id
 	private Long slotId;
