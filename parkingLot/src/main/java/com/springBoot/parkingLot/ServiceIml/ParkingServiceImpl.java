@@ -3,13 +3,15 @@ package com.springBoot.parkingLot.ServiceIml;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-import com.springBoot.parkingLot.Service.ParkingService;
+import com.springBoot.parkingLot.Service.ParkingServices;
 import com.springBoot.parkingLot.model.VechicleDTO;
 import com.springBoot.parkingLot.repository.ParkingRepo;
 
-
-public class ParkingServiceImpl implements ParkingService  {
+@Service
+public class ParkingServiceImpl implements ParkingServices  {
 
 	@Autowired
 	ParkingRepo parkingRepo;
